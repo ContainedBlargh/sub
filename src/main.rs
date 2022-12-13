@@ -87,7 +87,7 @@ fn main() {
     if capture && !sub_string.contains("&") {
         eprintln!("{}", "Warning: received flag for capturing, but no capture groups (&#) are present in substitution string.");
     }
-    if capture && (!sub_string.contains("(") || sub_string.contains(")")) {
+    if capture && !(rep_string.contains("(") || rep_string.contains(")")) {
         eprintln!("{}", "Warning: received flag for capturing, but no captures are present in replacement string.");
     }
     if pattern && capture {
