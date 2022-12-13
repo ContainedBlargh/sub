@@ -6,7 +6,7 @@ Ever thought that `sed` and `awk` were sedulously awkward to use? Ever wondered 
 
 Well, wonder no more!
 
-`sub` is written in Rust and uses the [`colored`](https://docs.rs/colored/latest/colored/index.html), [`argparse`](https://docs.rs/argparse/latest/argparse/), [`hex`](https://docs.rs/hex/latest/hex/) and [`regex`](https://docs.rs/regex/latest/regex/) libraries to let you replace and color characters directly from stdin.
+`sub` is written in Rust and uses the [`colored`](https://docs.rs/colored/latest/colored/index.html), [`argparse`](https://docs.rs/argparse/latest/argparse/), [`hex`](https://docs.rs/hex/latest/hex/) and [`regex`](https://docs.rs/regex/latest/regex/) libraries to let you replace and color characters directly from `stdin`.
 
 ## Usage
 
